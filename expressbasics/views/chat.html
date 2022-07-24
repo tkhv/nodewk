@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRC</title>
+    <link rel="stylesheet" href="chatStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="window">
+        <div class="navPane">
+            <div class="title">
+                IRC
+            </div>
+            <div class="logout">
+                <form action='/login' method='GET'>
+                    <button type='submit' class="logout"> logout </button>
+                </form>
+            </div>
+        </div>
+        <div class="chatWindow">
+            
+        </div>
+        <div class="messageInputContainer">
+            <form method='POST'>
+                <div class="messageInput"><input class="plainInput" id="message" name="message" placeholder="Type message..."></div>
+                <div class="btnContainer"><button type='send' class="btnSend"> </button></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

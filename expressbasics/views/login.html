@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRC Login</title>
+    <link rel="stylesheet" href="loginStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="center">
+        <div>
+            <div class="handleinputLabel">Enter your chat handle:</div>
+            <form action='/chat' method='POST'>
+                <div class="roundInputContainer">
+                    <div class="handleInput"><input class="plainInput" id="handle" name="handle" placeholder="Handle"></div>
+                    <div class="btnContainer"><button type='submit' class="btnLogin"><img src="./btnLogin.png" class="btnImg"></button></div>
+                </div>
+            </form>
+        </div>
+    </div>      
+</body>
+</html>
