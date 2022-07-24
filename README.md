@@ -1,3 +1,3 @@
 # nodewk
 
-Practice code for chat webapp while learning the MERN stack
+Practice code for a chat webapp while learning the MERN stack
