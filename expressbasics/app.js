@@ -1,6 +1,6 @@
 const express = require('express');
 const routeLogin = require('./routes/login');
-const chatData = require('./routes/chat');
+const chat = require('./routes/chat');
 
 const app = express();
 
@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 app.use(express.static("./public"))
 app.use(routeLogin);
-app.use(chatData.routes);
+app.use(chat);
 
 app.use((req, res) => {
     res.status(404);
