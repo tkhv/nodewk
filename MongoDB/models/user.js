@@ -1,6 +1,8 @@
 const mongodb = require("mongodb");
 const getDb = require("../util/database").getDb;
 
+// MONGOOSE BRANCH
+
 const ObjectId = mongodb.ObjectId;
 
 class User {
