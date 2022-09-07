@@ -1,3 +1,3 @@
 # nodewk
 
-Practice code for a chat webapp while learning the MERN stack
+Practicing Node.js with static views, mongoDB vs MySQL, etc.
